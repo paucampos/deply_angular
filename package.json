@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "pre-deploy": "ng build --configuration production --base-href https://paucampos.github.io/deply_angular/"
+    "pre-deploy": "ng build --configuration production --base-href https://paucampos.github.io/deply_angular/",
+    "deploy": " ng build --output-path docs --base-href /deply_angular/"
   },
   "private": true,
   "dependencies": {
